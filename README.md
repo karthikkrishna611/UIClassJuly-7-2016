@@ -53,8 +53,7 @@ hello world
 
 some edit
 
-Hello GM
-New Change to demonstrate
+
 
 
 staging the changes --> preparing to move to the repository
