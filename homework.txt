@@ -1,0 +1,71 @@
+1.)display: none; is commonly used with JavaScript to hide and show elements without deleting and recreating them. 
+Example : 
+<html>
+<body>
+<h1>This is a visible heading</h1>
+<h1 class="hidden">This is a hidden heading</h1>
+<p>Notice that the h1 element with display: none; does not take up any space.</p>
+</body>
+</html>
+In the css we give it as 
+H1.hidden{
+Display:none;
+}
+Display: none -> doesn’t take up any space by assigning the method display:none;.
+Visibility : hidden  
+ By assigning this  property  it taks up the browser space . 
+<html>
+<head>
+<style>
+h1.hidden {
+    display: none;
+}
+</style>
+</head><body>
+<h1>This is a visible heading</h1>
+<h1 class="hidden">This is a hidden heading</h1>
+<p>Notice that the h1 element with display: none; does not take up any space.</p>
+</body>
+</html>
+2.) Display  has the following properties: 
+Inline:This property is used to display the elements all in one single line.
+Block:The block level element make the content display in the new line .
+inline-block	Displays an element as an inline-level block container. The inside of this block is formatted as block-level box, and the element itself is formatted as an inline-level box.	
+		
+inline-table	The element is displayed as an inline-level table	 
+list-item	Let the element behave like a <li> element	
+
+3. Internal CSS : This is used with in the html document and the styles are given to the elements that are used with in the page and styles are assigned in the head section for all the properties.
+Inline css: This type of css is written  with in the same line after declaring property.
+<img src=”cf.jpg” width=30px;> this is inline css.
+External css : This type of writing style of  css is very useful because by using these styles can be applied to the  multiple style sheets.We can use it many times.
+4. If two selectors are applied on the same line then the one with more specificity wins on that particular element.
+1.	There are four distinct categories which define the specificity level of a given selector: inline styles, IDs, classes+attributes and elements.
+
+CSS Specificity:
+Example:
+<ul id="summer-drinks">
+   <li>Whiskey and Ginger Ale</li>
+   <li>Wheat Beer</li>
+   <li>Mint Julip</li>
+</ul>
+<ul id="summer-drinks">
+   <li class="favorite">Whiskey and Ginger Ale</li>
+   <li>Wheat Beer</li>
+   <li>Mint Julip</li>
+</ul>
+
+The css property has to be clearly designed to exactly specified to apply the style properly,
+
+.favorite {
+  color: red;
+  font-weight: bold;
+}
+In order to apply the css to the second list it has to be like this:
+ul#summer-drinks li {
+   font-weight: normal;
+   font-size: 12px;
+   color: black;}
+
+
+ 
