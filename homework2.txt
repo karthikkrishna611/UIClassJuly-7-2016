@@ -1,0 +1,40 @@
+1.	Input attributes
+              Example:  input type="text" name="firstname" value="John" size="40" .
+   2. Max attribute
+         <input type="date" name="bday" max="1979-12-31">
+   3.Min attribute
+        <input type="date" name="bday" min="1979-12-31">
+  4.datalist is also one of the attribute.
+    <input list="browsers">
+
+    <datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+5.When ever a text box is given it shows the name inside the box.
+   placeholder="First name"
+6.Step is an other attribute which is used to increase and decrease the values by selecting them.
+Example: Step=3
+7.height attribute and width attribute is used to adjust the size of the image in the particular module.
+8.disable this attribute is used to make a text box fix with a particular text .
+9.readonly-> this is used to show the suggestion in the box below.
+10.form attribute is used for writing the form such as the submitting one’s.
+
+2.)
+    <section></section>  this is used to group the related text together and the article is used to write the entire post in one place and then divisions are made by using the section.
+3.nav: it is used to mark up a collection of links to external pages o sections within the current page.The nav elements is used good for tables.
+4.aside : this is used to make containers at the side of the html page.
+5.Header : the header content is used to represent the introductory html page 
+6.Foooter :it is used to represent the author information at the bottom of the page.
+7.address : It is used for representing the contact or link of the web page that has been attached to the content in the particular web page.
+8. <figure>  :this is used to represent the caption for the figure .
+     <figcaption>
+     </figcaption>
+  </figure>
+  9.summary : it gives the scemantic meaning of the paragraphs that has been written and it is used mostly for the screen reader softwares and search for the desired elements in the page.
+10.main: any content that has been repeated in the remaining pages should not be placed in the main section. This should have the main content of the page.
+  
+
