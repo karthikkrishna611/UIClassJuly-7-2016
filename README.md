@@ -166,5 +166,4 @@ Hi everyone this is my change
  HEAD
 hii guys
 hii..this is teja
-hii..good norning 
- 2122422d77e9dbc0f70a82ab12a4488d12fce2bc
+hii..good morning
