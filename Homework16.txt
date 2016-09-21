@@ -1,0 +1,3 @@
+1) how can i use call, apply, bind methods for changing the value of 'this' keyword?
+
+the first argument for all of these functions is always the object name. so when we the mention the object name it becomes the current this value.

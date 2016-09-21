@@ -1,0 +1,14 @@
+2) Html dom events reference, practice with examples and come back.
+
+
+onclick -- <button onclick="myFunction()">Click me</button>
+ondblclick  -- <p ondblclick="myFunction()">Double-click me</p>
+onmousedown -- <p onmousedown="myFunction()">Click the text!</p>
+onmouseenter -- <img onmouseenter="bigImg(this)" src="smiley.gif" alt="Smiley">
+onmouseover -- <img onmouseover="bigImg(this)" src="smiley.gif" alt="Smiley">
+onmouseleave -- <img onmouseleave="normalImg(this)" src="smiley.gif" alt="Smiley">
+onkeydown -- <input type="text" onkeydown="myFunction()">
+onkeyypress -- <input type="text" onkeypress="myFunction()">
+onkeyup -- <input type="text" onkeyup="myFunction()">
+onblur  -- <input type="text" onblur="myFunction()">
+onfocus -- <input type="text" onfocus="myFunction()">

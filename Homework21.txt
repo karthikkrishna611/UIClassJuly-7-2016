@@ -1,0 +1,86 @@
+1) Basic CSS Selectors
+
+	All Selector:
+
+	
+	$('*').css('border','3px solid red');
+
+Selects all of the elements present and adds the border to them.
+
+	Class Selector:
+
+	$('.myClass').css('border','3px solid red');
+
+Selects all the elements that have the same class name as specified
+
+	Element Selector:
+
+	$('div').css('border','3px solid red');
+
+Selects all the elements that have the specified tag name.
+
+	ID Selector:
+	
+	$('#myDiv').css('border','3px solid red');
+Selects all the elements that have the same id as specified.
+
+	Multiple Selector:
+
+	$('div, span, p.myClass').css('border','3px solid red');
+
+Selects all the elements that are specified in the query.
+
+
+2) Attribute Selectors
+
+	attribute contains prefix selector:
+	
+	$("a[hreflang|='en']").css('border','3px solid red');
+
+Selects all the elements that have the attribute starting with 'en' .
+
+	attribute contains selector:
+	
+	$("input[name*='man']").val("has man in it");
+
+Selects all the elements that have the 'man' phrase anywhere in the name of input element.
+
+	attribute contains word selector:
+	
+	$( "input[name~='man']" ).val( "mr. man is in it!" );
+
+Selects all the elements that have the input attribute which has the name man delimited by whitespaces.
+
+	attribute ends with selector:
+
+	$( "input[name$='letter']" ).val( "a letter" );
+
+Selects all the elements whose input name attributes contains last word as letter.
+	
+	attribute equals selector:
+	
+	$( "input[value='Hot Fuzz']" ).next().text( "Hot Fuzz" );
+
+Selects all the elements which are exactly the same as mentioned.
+	
+	attribute not equals selector:
+
+	$( "input[name!='newsletter']" ).next().append( "<b>; not newsletter</b>" );
+
+Selects the elements which do not have the value as mentioned.
+
+	attribute starts with selector:
+	
+	$( "input[name^='news']" ).val( "news here!" );
+
+Selects the elements whose name starts with 'news'.
+
+	has attribute selector:
+	
+	$("div[id]".val("news");
+
+Selects the elements which contain the mentioned attributes.
+
+
+
+

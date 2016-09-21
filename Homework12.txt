@@ -1,0 +1,41 @@
+1) differences between while, do while and for loop
+
+while loop :
+
+
+while ( condition ) {
+}
+
+do while :
+
+do{
+}
+while( condition ) 
+
+checks for condition after the iteration is done
+
+for loop:
+
+for(initialization; condition; increment/decrement){
+}
+
+can initialize, give condition and perform increment in the loop itself.
+
+
+2) switch case statement.
+
+switch(variable)
+{
+
+case 1: //statement
+break;
+
+case 2: //statement
+break;
+.
+.
+.
+
+default: //statement
+break;
+}

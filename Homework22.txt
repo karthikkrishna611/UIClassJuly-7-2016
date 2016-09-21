@@ -1,0 +1,48 @@
+3) Attribute Child Filter
+
+	:first-child selector
+	$( "div span:first-child" )
+
+Selects all the spans that are the first child of the div tag.
+
+	:first-of-type selector
+	$( "span:first-of-type" )
+
+Selects the first span that is available in each block.
+
+	:last-child selector
+	$( "div span:last-child" )
+
+Selects the last span that is present in the div tags.
+
+
+	:last-of-type selector
+	$( "span:last-of-type" )
+
+Selects the last span tag in each of the block elements.
+
+	:nth-child() selector
+	$( "ul li:nth-child(2)" )
+
+Selects the second child of the list item in the unordered list. 
+	
+	:nth-last-child() selector
+	$( "ul li:nth-last-child(2)" )
+
+Selects the second to last child list item of the unordered list.
+
+	:nth-of-type() selector
+	$( "span:nth-of-type(2)" )
+
+Selects the second span element in every block
+
+	:nth-last-of-type() selector
+	$( "span:nth-last-of-type(2)" )
+
+Selects the second to last span element in every block.
+
+	:only-child() selector
+	$( "div button:only-child" )
+
+Selects the element only if the button is the only child of div.
+

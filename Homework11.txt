@@ -1,0 +1,18 @@
+1) selectors in java script
+
+document. getElementById
+
+
+fetches the tag with the id that is defined inside the bracket.
+
+document.getElementsByTagName
+
+fetches the tags mention in the brackets.
+
+document.getElementsByClassName
+
+fetches the tags that have the same class name as the one inside the brackets.
+
+document.querySelectorAll
+
+fetches tags that meet the conditions inside the brackets.
