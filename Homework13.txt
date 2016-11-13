@@ -1,0 +1,66 @@
+1) Implement an example for forEach and map, understand when to you which method of the arrays?
+
+forEach calls for a method, once for each elemtn in a array.
+
+   array.forEach(function(currentValue,index,arr), thisValue)
+
+map creates a new array with the specified operation 
+
+	array.map(function(currentValue,index,arr), thisValue)
+
+2) Looks into the objects related methods hasOwnProperty, Obect.keys, 
+	add a property, remove a property, modify a property
+
+
+hasOwnProperty
+	this specifies whether the object has the property mentioned.
+
+object.keys()
+
+	returns an array of an objects own enumerable properties.
+
+Adding properties:
+
+objectname.propertyname = propertyvalue;
+
+Delete properties:
+
+delete objectname.propertyname
+
+3) different ways of creating objects
+
+Using an Object Literal:
+
+ var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}; 
+
+Using the JavaScript Keyword new:
+
+var person = new Object();
+person.firstName = "John";
+person.lastName = "Doe";
+person.age = 50;
+person.eyeColor = "blue"; 
+
+Using an Object Constructor
+function person(first, last, age, eye) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eye;
+}
+var myFather = new person("John", "Doe", 50, "blue");
+var myMother = new person("Sally", "Rally", 48, "green");
+
+4) what is prototype in java script?
+Every JavaScript object has a prototype. The prototype is also an object.
+All JavaScript objects inherit their properties and methods from their prototype.
+
+function Person(first, last, age, eyecolor) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eyecolor;
+}
+
+
+

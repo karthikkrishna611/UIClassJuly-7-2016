@@ -1,0 +1,73 @@
+1) please look into all the methods of the arrays, practice it by a example and provide the description 
+	https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/
+
+Create an Array
+
+var fruits = ["Apple", "Banana"];
+console.log(fruits.length);
+
+Access (index into) an Array item
+
+var first = fruits[0];
+var last = fruits[fruits.length - 1];
+
+Loop over an Array
+
+fruits.forEach(function (item, index, array) {
+  console.log(item, index);
+});	
+
+Add to the end of an Array
+
+var newLength = fruits.push("Orange");
+
+Remove from the end of an Array
+
+var last = fruits.pop(); // remove Orange (from the end)
+
+Remove from the front of an Array
+
+var first = fruits.shift(); // remove Apple from the front
+
+Add to the front of an Array
+
+var newLength = fruits.unshift("Strawberry") // add to the front
+
+Find the index of an item in the Array
+
+fruits.push("Mango");
+var pos = fruits.indexOf("Banana");
+
+Remove an item by Index Position
+
+var removedItem = fruits.splice(pos, 1); // this is how to remove an item
+
+2) what are properties within objects, 
+	add a property, remove a property, modify a property, accesing a property value in objects by example and explanation.
+
+Add a property :
+
+Let person be an object
+
+person.age = 23;
+
+Modify a property:
+
+let person be an object
+
+person.age = 23;
+person.age=29;
+
+Accessing a property value:
+
+let person be an object
+
+var age = person.age;
+
+console.log(age); // will show 29.
+
+3) .hasOwnProperty ?? 
+
+Checks is the property mentioned in the brackets is present in the current object.
+
+

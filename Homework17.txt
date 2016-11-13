@@ -1,0 +1,10 @@
+1) look into java script hoisting, explain with an example? 
+
+HOisting is javascript's behavior of moving the declarations to the top.x = 5; // Assign 5 to x
+
+elem = document.getElementById("demo"); 
+elem.innerHTML = x;                     
+
+var x; 
+
+Here the var x part is taken to the top. But initialised elements are not hoisted.

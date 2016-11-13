@@ -1,0 +1,34 @@
+1) define what is a prototype ? syntax? --> explain by an example
+
+Prototypes are created using object constructor
+
+Ex:
+
+fucntion Person(name, age, height weight){
+
+	this.name = name;
+	this.age = age;
+	this.height = height;
+	this.weight = weight;
+}
+
+now we create a new person object:
+
+var me = new Person("harsha",23,6,0);
+
+2) what is the difference when you add property to prototype vs when you add property using this? which is better?
+
+When you add a property to a prototype, all the objects will inherit the same property.
+Using this, we can let the developer enter his own field for the property.
+
+So if all the objects are bound to have the same property, we use prototype, but is we want the user to input his own value, then this would be better.
+
+3) use of this keyword? 
+
+this will refer to the current object.
+
+4) call apply and bind methods in java script
+
+bind() method attaches the fucntion to the element.
+call() will call the current fucntion with its set of arguments.
+apply() unlike call apply takes all the arugments of a function in the form of an array.

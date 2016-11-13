@@ -54,11 +54,10 @@ hello world
 
 some edit
 
-Hello GM
-New Change to demonstrate
 
 
-staging the changes --> preparing to move to the repository
+
+staging the changes preparing to move to the repository
 
 
 Good Morning    
@@ -78,14 +77,13 @@ allows you to avoid merge conflicts
 
 hii guys
 
-<<<<<<< HEAD
-=======
 
->>>>>>> e31835ad93a54ce460bef59571a44139c42da045
+
+e31835ad93a54ce460bef59571a44139c42da045
 
  
 
-<<<<<<< HEAD
+HEAD
 hello all
 
  
@@ -96,7 +94,7 @@ hi
 hii..this is teja
 
 
-=======
+
 
 hi this is srija
 
@@ -113,10 +111,8 @@ Hi Good Evening
 
  HEAD
 
-HI R2 tech this is xxxxxxxxx
-
-
->>>>>>> e31835ad93a54ce460bef59571a44139c42da045
+HI R2 tech this is 
+e31835ad93a54ce460bef59571a44139c42da045
 
 HEAD
 
@@ -124,7 +120,7 @@ HEAD
 hi this is srija
 I want to have hands on git
 
-=======
+
 For understanding purpose.
 
 For understanding merge conflict purpose. creating conflicts some simple example.Agin doing the same.adding
@@ -168,3 +164,7 @@ Homework 2:
 Hi everyone this is my change
 HI is this my change
 
+ HEAD
+hii guys
+hii..this is teja
+hii..good morning
